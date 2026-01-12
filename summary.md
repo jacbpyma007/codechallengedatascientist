@@ -1,4 +1,4 @@
-# E-Commerce Returns Prediction: My Solution
+# E-Commerce Returns Prediction: Solution
 
 **Javier Cruz** | January 2026
 
@@ -43,10 +43,10 @@ Here's the before and after:
 
 | What We Measured | Starting Point | Final Model | Improvement |
 |--------|------|-----|---------|
-| **Catching Returns** | 0 out of 505 | 284 out of 505 | ✅ 56% |
-| **Precision** | 0% | 31% | ✅ Now reasonable |
-| **F1-Score** | 0.0 | 0.40 | ✅ Actually useful |
-| **Money Lost** | $9,090 | $5,880 | ✅ Save $3,210 |
+| **Catching Returns** | 0 out of 505 | 284 out of 505 |  56% |
+| **Precision** | 0% | 31% |  Now reasonable |
+| **F1-Score** | 0.0 | 0.40 |  Actually useful |
+| **Money Lost** | $9,090 | $5,880 |  Save $3,210 |
 
 That $3,210 savings isn't huge in the grand scheme, but it's 35% better than doing nothing. More importantly, we're now catching the majority of returns instead of zero.
 
@@ -130,10 +130,10 @@ The key insight was understanding that this wasn't really a machine learning pro
 
 ---
 
-**Files You're Getting**:
+**Files**:
 1. `Cruz_Javier_challenge.ipynb` - The full analysis (all 4 parts, all cells executed)
 2. `Cruz_Javier_returns_model.pkl` - The actual trained model, ready to use
 3. `summary.md` - This document
 
-Took about 40 minutes of focused work to get here.  
+ 
 **Model Accuracy vs. Baseline**: +56.2% improvement in recall (primary business metric)
